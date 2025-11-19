@@ -8,7 +8,7 @@ const s4 = "bread";
 const s5 = "and";
 
 // Concatenate the string variables into one new string
-let concatenateWords = `${s1} ${s2} ${s3} ${s4} ${s5}`;
+let concatenateWords = `${s1} ${s2} ${s3} ${s4} ${s5} ${s3} ${s1} ${s4}`;
 console.log("Here is the concantenate words : ", concatenateWords);
 
 // Print out the concatenated string
@@ -23,7 +23,6 @@ const part2 = "script";
 const concatenateWords1 =
   part1 +
   part1[part1.length - 1].toUpperCase() +
-  " " +
   part2 +
   part2[part2.length - 1].toUpperCase();
 console.log(
